@@ -1,0 +1,18 @@
+<flectra>
+    <data>
+		<template id="website_search_box_inherit" inherit_id="website.website_search_box">
+            <xpath expr="//button[hasclass('oe_search_button')]"  position="attributes">
+				<attribute name="title">Search current category</attribute>
+			</xpath>
+			<xpath expr="//button[hasclass('oe_search_button')]" position="after">
+                <button type="submit" title="Search all categories" class="btn btn-default oe_search_button_global"><i class="fa fa-search-plus"/></button>
+			</xpath>
+		</template>
+
+        <template id="asset_front_end_inherited_view" inherit_id="web.assets_frontend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/website_product_global_search/static/src/js/custom.js"></script>
+            </xpath>
+        </template>
+    </data>
+</flectra>

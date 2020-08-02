@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_web_product_global_search_web_product_global_search,web_product_global_search.web_product_global_search,model_web_product_global_search_web_product_global_search,,1,0,0,0
