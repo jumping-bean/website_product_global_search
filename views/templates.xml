@@ -3,6 +3,7 @@
 		<template id="website_search_box_inherit" inherit_id="website.website_search_box">
             <xpath expr="//button[hasclass('oe_search_button')]"  position="attributes">
 				<attribute name="title">Search current category</attribute>
+                <attribute name="t-if">category</attribute>
 			</xpath>
 			<xpath expr="//button[hasclass('oe_search_button')]" position="after">
                 <button type="submit" title="Search all categories" class="btn btn-default oe_search_button_global"><i class="fa fa-search-plus"/></button>
