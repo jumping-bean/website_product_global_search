@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "website_product_global_search",
 
@@ -22,12 +21,11 @@
     'website': "http://www.jumpingbean.co.za",
     'license': 'LGPL-3',
     'category': 'Website',
-    'version': '0.1',
+    'version': '1.0',
 
     'depends': ['base', 'website_sale'],
 
     'data': [
-        # 'security/ir.model.access.csv',
         'views/templates.xml',
 
     ]
